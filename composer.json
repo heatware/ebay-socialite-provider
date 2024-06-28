@@ -3,6 +3,7 @@
     "description": "eBay OAuth2 Provider for Laravel Socialite",
     "version": "1.0.0",
     "license": "MIT",
+    "type": "library",
     "keywords": [
         "laravel",
         "ebay",
