@@ -1,0 +1,36 @@
+{
+    "name": "socialiteproviders/ebay",
+    "description": "eBay OAuth2 Provider for Laravel Socialite",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "ebay",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "heat23",
+            "email": "support@heatware.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HeatWare\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": {
+                "SocialiteProviders\\Ebay\\": ""
+            }
+        }
+    }
+}
